@@ -1,5 +1,7 @@
 # :warning::warning: This project is no longer maintained. :warning::warning:
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/74a16ae3-26fd-432e-95c9-f0e4e7eb8dd2/deploy-status)](https://app.netlify.com/sites/kaleidoscopic-hotteok-7dfacd/deploys)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## What's this?
