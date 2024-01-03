@@ -6,9 +6,9 @@ describe('<ButtonLink />', () => {
   test('should render correctly', () => {
     const { asFragment } = render(
       <ButtonLink
-        text="turali.js.org"
-        title="turali.js.org"
-        href="https://turali.js.org"
+        text="wizzdom.dev"
+        title="wizzdom.dev"
+        href="https://wizzdom.dev"
         icon={{
           prefix: 'fas',
           iconName: 'coffee',

@@ -1,6 +1,6 @@
 ### Some of the projects I've worked on so far
 
-- [turali.js.org](https://turali.js.org/)
+- [wizzdom.dev](https://wizzdom.dev/)
 
   - The web app you are currently looking at.
   - `React`, `TypeScript`

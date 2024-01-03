@@ -7,12 +7,12 @@ describe('<GHButton />', () => {
     const { asFragment } = await render(
       <GHButton
         resource={{
-          endpoint: 'https://api.github.com/users/caglarturali',
+          endpoint: 'https://api.github.com/users/manzub',
           attr: 'followers',
         }}
-        href="https://github.com/caglarturali"
-        title="Follow @caglarturali on GitHub"
-        text="Follow @caglarturali on GitHub"
+        href="https://github.com/manzub"
+        title="Follow @manzub on GitHub"
+        text="Follow @manzub on GitHub"
         icon={{
           prefix: 'fab',
           iconName: 'github',

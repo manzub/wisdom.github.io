@@ -1,19 +1,19 @@
 [
   {
     "name": "GitHub",
-    "url": "https://github.com/caglarturali",
+    "url": "https://github.com/manzub",
     "icon": ["fab", "github"],
     "isMain": false
   },
   {
     "name": "LinkedIn",
-    "url": "https://linkedin.com/in/caglarturali",
+    "url": "https://linkedin.com/in/wizzdom",
     "icon": ["fab", "linkedin"],
     "isMain": false
   },
   {
     "name": "resume",
-    "url": "https://www.goodreads.com/caglarturali",
+    "url": "https://wizzdom.dev/profile",
     "icon": ["fas", "file"],
     "isMain": false
   }
