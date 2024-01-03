@@ -13,7 +13,7 @@
   },
   {
     "name": "resume",
-    "url": "https://wizzdom.dev/profile",
+    "url": "https://wizzdom.dev/profile.pdf",
     "icon": ["fas", "file"],
     "isMain": false
   }
