@@ -1,3 +1,3 @@
 export interface PageProps {
-  comp: React.ComponentType;
+  comp: React.ComponentType<any>;
 }

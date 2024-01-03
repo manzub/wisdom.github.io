@@ -5,6 +5,7 @@ import { randomHello } from "../../utils";
 import MainButtons, { MainButtonsProps } from "./components/MainButtons";
 import Typed from "typed.js";
 import { Static } from "../../models";
+import SEO from "../../components/SEO";
 
 const useStyles = createUseStyles(styles)
 
@@ -35,10 +36,16 @@ const Greeter: React.FC<GreeterProps> = ({ staticData, contactData, repoUrl }) =
 
   const hello = randomHello();
 
-  return(
+  return (
     <>
+      <SEO title={hello.hello} />
       <section className={classes.root}>
-        <h1 className={classes.heading}>{staticData.mainLine}</h1>
+        <h1 className={classes.heading} style={{ display: 'flex', alignItems: 'end' }}>
+          <span style={{ display: 'flex', flexDirection: 'column', justifyContent: 'start' }}>
+            <span style={{ fontSize: 15 }}>{hello.language}</span>
+            {hello.hello + ` ${staticData.mainLine}`}
+          </span>
+        </h1>
         <div className={classes.typedWrap}>
           <span id="typed-insert-point" style={{ whiteSpace: 'pre' }} />
         </div>

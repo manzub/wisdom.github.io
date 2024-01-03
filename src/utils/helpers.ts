@@ -3,7 +3,7 @@ import hello from '../data/json/hello.json';
 /**
  * Says Hello in a random language.
  */
-export const randomHello = (): string => {
+export const randomHello = (): { language: string, hello: string } => {
   const randomInt = Math.floor(Math.random() * hello.length);
-  return `${hello[randomInt].hello}!`;
+  return { language: hello[randomInt].language, hello: `${hello[randomInt].hello}!`};
 };

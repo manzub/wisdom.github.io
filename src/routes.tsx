@@ -1,26 +1,41 @@
-import { Redirect, RouteComponentProps } from "@reach/router";
-import { pages } from "./data";
-import { PageProps } from "./models";
 import React from "react";
+import MDTab, { MDTabProps } from "./components/MDTab";
+import { PageProps } from "./models";
 
-type ViewProps = RouteComponentProps & PageProps;
-const View: React.FC<ViewProps> = ({comp: Comp, ...rest}) => {
-  return <div>{/*dp sometihng */}</div>
+import { pages, tabs } from "./data";
+import { Route, createBrowserRouter } from "react-router-dom";
+
+const View: React.FC<PageProps> = ({ comp: Comp, ...rest }) => {
+  return <Comp {...rest} />;
+};
+
+const Tab: React.FC<MDTabProps> = ({ fileName }) => {
+  return <MDTab fileName={fileName} />
 }
 
-type TabProps = RouteComponentProps;
-const Tab: React.FC<TabProps> = ({ fileName }) => {
-  return <div fileName={fileName} />
-}
+// const router = createBrowserRouter([
+//   ...pages.map(({ name, url, comp, ...rest }) => ({
+//     path: url,
+//     element: <View comp={comp} {...rest} />
+//   })),
+//   ...tabs.map(({ name, url, mdFileName }) => ({
+//     path: url, element: <Tab fileName={mdFileName} />
+//   }))
+// ]);
 
 const routes = [
-  pages.map({{ name, url, comp, ...rest }} => (
-    <View path={url} key={name} comp={comp} {...rest} />
+  pages.map(({ name, url, comp, ...rest }) => (
+    <Route path={url} key={name} element={<View comp={comp} {...rest} />} />
   )),
   tabs.map(({ name, url, mdFileName }) => (
-    <View path={url} key={name} fileName={mdFileName} />
-  )),
-  <Redirect key="notfound" from="*" to="/" default noThrow />
+    <Route path={url} key={name} element={<Tab fileName={mdFileName} />} />
+  ))
+  // pages.map(({ name, url, comp, ...rest }) => (
+  //   <View path={url} key={name} comp={comp} {...rest} />
+  // )),
+  // tabs.map(({ name, url, mdFileName }) => (
+  //   <Tab path={url} key={name} fileName={mdFileName} />
+  // )),
 ]
 
 export default routes;

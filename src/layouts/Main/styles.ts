@@ -57,7 +57,7 @@ export default {
     right: 0,
     width: '100%',
     [`@media screen and (max-width: ${breakpoints.desktop})`]: {
-      left: '0',
+      // left: '0',
     },
   },
   explorerOpen: {
