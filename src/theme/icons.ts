@@ -15,11 +15,13 @@ import {
   faSearch,
   faCog,
   faQuestionCircle,
+  faFile,
 } from '@fortawesome/free-solid-svg-icons';
 
 library.add(
   fab,
   faHome,
+  faFile,
   faGraduationCap,
   faCheckSquare,
   faCoffee,

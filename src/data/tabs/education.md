@@ -1,18 +1,13 @@
 ### My \[academic\] background
 
-- [Software Engineering](/swe)
+- [Software Engineering](https://beds.ac.uk)
 
-  - Apprenticeship Program
-  - 2020-...
-
-- [Computer Education and Instructional Technologies](https://bote.kku.edu.tr/)
-
-  - Kirikkale University
+  - University of Bedfordshire
   - Bachelor's Degree
-  - 2010-2017
+  - 2022-2023
 
-- [Physics](https://fizik.kku.edu.tr/)
+- [Advanced Diploma in Software Engineering](https://www.aptechlearning.com/)
 
-  - Kirikkale University
-  - _Dropout_
-  - 2008-2010
+  - Aptech Learning
+  - Advanced Diploma (FHEQ Level 6)
+  - 2019-2021

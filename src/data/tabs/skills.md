@@ -2,39 +2,40 @@
 
 - [Odoo](https://www.odoo.com/) Development
 - Web Development (End-to-End)
-- Mobile Development (Hybrid/Native)
+- Mobile Development (Hybrid)
 - Game Development (Unity 3D)
-- VR Development (Unity 3D)
 - Web Design
-- 3D Modelling / Animation
+- Blockchain Development
+- Animation (Traditional/2D)
 
 ### Programming languages / tech stacks
 
 - In modern times:
   - Python
-  - Dart (w/ Flutter)
+    - Flask, Fast API
   - JavaScript/TypeScript (3+ years)
     - React.js
     - Node.js
     - Express.js
     - MongoDB
-  - Golang (newcomer)
+  - NLP/ML (newcomer)
+  - Ethereum (Hardhat/Truffle)
+    - Solidity (intermediate)
+    - JavaScript
 - In ancient times:
   - Java (~1 year)
-  - C#/.NET (3+ years)
   - PHP/MySQL (~3 years)
 
 ### Preferences 🙏
 
-- [Debian derivatives](https://www.debian.org/) || [Fedora](https://getfedora.org/) 🐧
-- [Zshell](https://en.wikipedia.org/wiki/Z_shell) ([Oh My Zsh](https://ohmyz.sh/)) 💻
+- [MacOs](https://www.apple.com/uk/macos/sonoma/) || [Linux](https://www.linux.org/pages/download/)
 - [VSCode](https://code.visualstudio.com/) ¯\\_(ツ)_/¯
-- [JetBrains Mono](https://www.jetbrains.com/lp/mono/) ⌨️
+- [Dracula Theme](https://draculatheme.com/) ⌨️
 
 ### Special interests 👌
 
-- \[Virtual\] Aviation ✈
-- Cycling 🚴‍♂️
-- Electronic music production 🎧
+- Books 📚
+- Exercise 🏋️
+- Music 🎧
 - Entrepreneurship 👨🏻‍💻
 - Technical documentaries 🎥

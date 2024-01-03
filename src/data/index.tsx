@@ -1,7 +1,7 @@
 import React from 'react';
 import Greeter from '../views/Greeter';
 import { PageLink, TabLink } from '../models';
-import { jsOrange, midBlue, green, pink } from '../theme/colors';
+import { jsOrange, midBlue, green } from '../theme/colors';
 
 import staticData from './json/static.json';
 import contactData from './json/contact.json';
@@ -47,11 +47,11 @@ export const tabs: TabLink[] = [
     color: green,
     mdFileName: 'projects',
   },
-  {
-    name: 'certificates.sass',
-    url: '/certificates',
-    icon: ['fab', 'sass'],
-    color: pink,
-    mdFileName: 'certificates',
-  },
+  // {
+  //   name: 'certificates.sass',
+  //   url: '/certificates',
+  //   icon: ['fab', 'sass'],
+  //   color: pink,
+  //   mdFileName: 'certificates',
+  // },
 ];

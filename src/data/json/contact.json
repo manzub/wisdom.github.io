@@ -12,9 +12,9 @@
     "isMain": false
   },
   {
-    "name": "goodreads",
+    "name": "resume",
     "url": "https://www.goodreads.com/caglarturali",
-    "icon": ["fab", "goodreads"],
+    "icon": ["fas", "file"],
     "isMain": false
   }
 ]

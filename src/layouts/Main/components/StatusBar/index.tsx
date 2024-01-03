@@ -25,6 +25,7 @@ const StatusBar: React.FC = () => {
       </a>
 
       <span>
+        <span style={{fontSize:6,color:'wheat'}}>&copy;caglarturali</span>
         <FontAwesomeIcon
           className={classes.icon}
           icon="smile"
