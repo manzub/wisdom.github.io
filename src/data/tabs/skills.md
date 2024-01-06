@@ -1,9 +1,7 @@
 ### Technical skills
 
-- [Odoo](https://www.odoo.com/) Development
 - Web Development (End-to-End)
 - Mobile Development (Hybrid)
-- Game Development (Unity 3D)
 - Web Design
 - Blockchain Development
 - Animation (Traditional/2D)
